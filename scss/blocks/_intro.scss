@@ -1,0 +1,129 @@
+.intro {
+    background: url(../../img/cup-of-coffee.jpg) no-repeat;
+    max-width: 1280px;
+    height: 600px;
+}
+
+.intro__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+
+    color: #FEFCF7;
+    max-width: 493px;
+    margin: 0;
+}
+
+.intro__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FEFCF7;
+    max-width: 445px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin: 32px 0 71px 0;
+}
+
+.intro__link {
+    text-decoration: none;
+    background-color: #0E8784;
+    padding: 15px 31px;
+    border-radius: 6px;
+
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FEFCF7;
+}
+
+.intro__container {
+    margin-left: 85px;
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .intro {
+        background: url(../../img/coffee.png) no-repeat;
+        border-radius: 6px;
+        max-width: 689px;
+        max-height: 500px;
+    }
+
+    .intro__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 329px;
+    }
+
+    .intro__text {
+    font-family: 'Barlow';
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 398px;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin: 24px 0 55px 0;
+    }
+
+    .intro__container {
+        margin-left: 58px;
+        padding-top: 100px;
+    }
+
+    .intro__link {
+        background-color: #0E8784;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+ 
+    .intro__title {
+        
+    font-family: 'Fraunces';
+
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+
+    text-align: center;
+
+    padding-top: 100px;
+    }
+
+    .intro__text {
+        text-align: center;
+        max-width: 279px;
+        margin: 24px 0 54px 20px;
+    }
+
+    .intro__container {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 115px;
+        max-width: 328px;
+    }
+
+    .intro {
+        background: url(../../img/intro-mobile.png) no-repeat top left;
+        height: 100%;
+        max-width: 328px;
+    }
+
+    .intro__link {
+        margin-left: 50px;
+    }
+  
+}

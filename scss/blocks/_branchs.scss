@@ -1,0 +1,126 @@
+.branchs__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #83888F;
+    margin-top: 168px;
+    margin-bottom: 72px;
+}
+
+.branchs__item-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #333D4B;
+    margin: 48px 0 21px 0;
+}
+
+.branchs__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.branchs__description {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #333D4B;
+    margin: 0;
+}
+
+.branchs__list-item {
+    margin-right: 160px;
+}
+
+.branchs__list-other {
+    margin-right: 180px;
+}
+
+.branchs__container {
+    margin-left: 85px;
+}
+
+@media only screen and (max-width: 1280px) {
+.branchs__container {
+    margin: 0;
+}
+
+.branchs__item-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333D4B;
+}
+
+.branchs__description {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #333D4B;
+}
+
+.branchs__list-item {
+    margin: 0 50px 0 0;
+}
+
+.branchs__list-other {
+    margin: 0 70px 0 0;
+}
+
+}
+
+@media only screen and (max-width: 720px) {
+    .branchs__title {
+    max-width: 320px;
+    text-align: center;
+    }
+
+    .branchs__list {
+    flex-direction: column;
+    }
+
+    .branchs__description {
+    text-align: center;
+    max-width: 326px;
+
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    }
+
+    .branchs__item-title {
+    max-width: 327px;
+    text-align: center;
+
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    margin: 47px 0 22px 0;
+    }
+
+    .branchs__image {
+        margin-left: 135px;
+    }
+
+    .branchs__list-item {
+        margin-bottom: 80px;
+    }
+
+    .branchs__list-other{
+        margin-bottom: 80px;
+    }
+}

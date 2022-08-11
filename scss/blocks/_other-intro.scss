@@ -1,0 +1,101 @@
+.intro__about-us {
+    background: url(../../img/About-us.png) no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+.intro__other-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FEFCF7;
+    margin: 0;
+}
+
+.intro__other-decription {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #afafaf;
+    max-width: 445px;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.intro__other-container {
+    margin-left: 85px;
+    padding-top: 120px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .intro__about-us {
+        background: url(../../img/about-us-tablet.png) no-repeat;
+    }
+
+    .intro__other-container {
+        margin: 0;
+        padding: 0;
+        margin-left: 40px;
+        padding-top: 100px;
+    }
+
+    .intro__other-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #FEFCF7;
+    }
+
+    .intro__other-decription {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #afafaf;
+    
+    max-width: 398px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .intro__about-us {
+        background: url(../../img/about-us-mobile.png) no-repeat;
+    }
+
+    .intro__other-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+
+    text-align: center;
+    color: #FEFCF7;
+    max-width: 279px;
+    }
+
+    .intro__other-container {
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+        margin-left: 24px;
+    }
+
+    .intro__other-decription {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    text-align: center;
+    color: #afafaf;
+    max-width: 279px;
+    }
+}

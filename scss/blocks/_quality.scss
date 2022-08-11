@@ -1,0 +1,139 @@
+.quality {
+    background-color: #2C343E;
+    border-radius: 10px;
+    height: 474px;
+    position: relative;
+    margin-top: 224px;
+}
+
+.quality::before {
+    content: '';
+    display: block;
+    background: url(../../img/quality-coffee.png) no-repeat;
+    height: 474px;
+    width: 445px;
+    position: absolute;
+    right: 85px;
+    bottom: 90px;
+}
+
+.quality__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FEFCF7;
+    margin: 0 0 32px 0;
+}
+
+.quality__description {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FEFCF7;
+    max-width: 540px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.quality__container {
+    margin: 0 0 0 85px;
+    padding-top: 90px;
+}
+
+@media only screen and (max-width: 1280px) {
+.quality {
+    max-width: 688px;
+    max-height: 488px;
+    margin-top: 300px;
+}
+
+.quality::before {
+    content: '';
+    display: block;
+    background: url(../../img/quality-tablet.png) no-repeat;
+    border-radius: 10px;
+    width: 573px;
+    left: 60px;
+    bottom: 160px;
+}
+
+.quality__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.quality__description {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-left: 70px;
+}
+
+.quality__container {
+    padding: 224px 0 0 0;
+    margin: 0;
+}
+
+}
+
+@media only screen and (max-width: 720px) {
+.quality {
+    max-width: 327px;
+    max-height: 509px;
+    margin-top: 650px;
+}
+
+.quality::before {
+     content: '';
+    display: block;
+    background: url(../../img/quality-mobile.png) no-repeat top;
+    background-size: cover;
+    max-width: 279px;
+    max-height: 156px;
+    left: 35px;
+    top: -80px;
+}
+
+.quality__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+
+    text-align: center;
+    color: #FEFCF7;
+    max-width: 279px;
+    margin: 0 0 24px 0;
+}
+
+.quality__description {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+    text-align: center;
+    color: #FEFCF7;
+    margin: 0;
+    max-width: 279px;
+    }
+
+.quality__container {
+    padding: 130px 0 0 0;
+    margin-left: 20px;
+}
+}
