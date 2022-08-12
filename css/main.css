@@ -89,7 +89,7 @@
 }
 @media only screen and (max-width: 720px) {
   .container {
-    max-width: 357px;
+    max-width: 320px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -129,7 +129,7 @@
     cursor: pointer;
   }
   .site-header__container {
-    max-width: 328px;
+    max-width: 320px;
     justify-content: space-between;
   }
   .visually-hidden {
@@ -176,7 +176,6 @@
   }
   .site-header__nav--opened {
     background-color: #FEFCF7;
-    width: 328px;
   }
   @-webkit-keyframes nav-open {
     0% {
@@ -868,7 +867,7 @@
   display: flex;
   list-style: none;
   margin: 262px 0 0 65px;
-  padding: 0;
+  padding: 0 0 0 30px;
   justify-content: space-around;
   position: relative;
 }

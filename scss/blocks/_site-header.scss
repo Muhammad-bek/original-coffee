@@ -41,7 +41,7 @@
     }
 
     .site-header__container {
-        max-width: 328px;
+        max-width: 320px;
         justify-content: space-between;
     }
 
@@ -96,7 +96,6 @@
 
     .site-header__nav--opened {
         background-color: #FEFCF7;
-        width: 328px;
     }
 
     @keyframes nav-open{
