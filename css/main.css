@@ -89,7 +89,7 @@
 }
 @media only screen and (max-width: 720px) {
   .container {
-    max-width: 320px;
+    max-width: 290px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -354,7 +354,7 @@
   .intro {
     background: url(../../img/intro-mobile.png) no-repeat top left;
     height: 100%;
-    max-width: 328px;
+    max-width: 300px;
   }
   .intro__link {
     margin-left: 50px;
@@ -634,7 +634,7 @@
     background-size: cover;
     max-width: 279px;
     max-height: 156px;
-    left: 35px;
+    left: 40px;
     top: -80px;
   }
   .quality__title {
@@ -760,7 +760,7 @@
     margin: 47px 0 22px 0;
   }
   .branchs__image {
-    margin-left: 135px;
+    margin-left: 120px;
   }
   .branchs__list-item {
     margin: 0 0 80px 0;
@@ -1382,6 +1382,6 @@
     margin-bottom: 80px;
   }
   .works__link {
-    margin-left: 50px;
+    margin-left: 35px;
   }
 }/*# sourceMappingURL=main.css.map */
